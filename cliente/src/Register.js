@@ -13,7 +13,7 @@ const Register = () => {
         e.preventDefault();
         try {
             // Enviar datos al servidor
-            const response = await axios.post('http://localhost:5000/register', { nombre, dpi, email, contraseña });
+            const response = await axios.post('https://tarea-3-yxlq.onrender.com/register', { nombre, dpi, email, contraseña });
             // Aquí puedes mostrar un mensaje de éxito si lo deseas
             alert('Registro exitoso, redirigiendo a inicio de sesión...');
             navigate('/login'); // Redirigir al inicio de sesión

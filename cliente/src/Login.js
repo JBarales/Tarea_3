@@ -12,7 +12,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/login', { email, contraseña });
+            const response = await axios.post('https://tarea-3-yxlq.onrender.com/login', { email, contraseña });
             setUser(response.data.user);
             alert('Inicio de sesión exitoso'); // Mensaje de éxito opcional
             navigate('/'); // Redirigir al inicio o donde quieras
