@@ -1,0 +1,23 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 500px; /* Ancho máximo del formulario */
+  margin: auto; /* Centra el formulario */
+  padding: 20px; /* Espaciado interior */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  background-color: white; /* Fondo blanco para el formulario */
+}
